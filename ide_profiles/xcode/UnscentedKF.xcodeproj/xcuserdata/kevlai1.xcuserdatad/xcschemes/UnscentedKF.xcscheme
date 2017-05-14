@@ -61,6 +61,12 @@
             ReferencedContainer = "container:ide_profiles/xcode/UnscentedKF.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "../../../data/obj_pose-laser-radar-synthetic-input.txt ../../../data/obj_pose-laser-radar-synthetic-output.txt "
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
