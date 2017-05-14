@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		AEFBA06633F64B758F3EA123 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6E1CE44A36804573B0B1F337 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				A0DCD9F6E9CD438BB56AC385 /* CMake Rules */,
+			);
+			dependencies = (
+				E00CC505550148548300FA7C /* PBXTargetDependency */,
+				FFAD3FCEE8414588A7F3B553 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		F7EFC2D8747444FFAEFD4B5F /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2210511C03BF451096A6BB0E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				BD9967F71CF8444782CC833C /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		2C2E0986103E4F4D92F8F4C3 /* /Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/src/tools.cpp */ = {isa = PBXBuildFile; fileRef = F367BC3716F545D38FCF281B /* /Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/src/tools.cpp */; };
+		546C708989AD45EFB5183E16 /* /Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = CA1CED3269F641C195FD3EC7 /* /Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/CMakeLists.txt */; };
+		BD36902163BF4373AD62B320 /* /Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/src/main.cpp */ = {isa = PBXBuildFile; fileRef = E03F01EC6E9E434D912A6BB4 /* /Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/src/main.cpp */; };
+		D42CA48783B84274B985D8E5 /* /Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/src/ukf.cpp */ = {isa = PBXBuildFile; fileRef = 0D8C3EBF68544DE59C049853 /* /Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/src/ukf.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		0862D97D4152410984C40A9E /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		4AD987B1964449808D15DB68 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		6054101A41874262B1592C3A = {
+			isa = PBXBuildStyle;
+		};
+		9F80BB3080C94A96AAE12DCA /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		C04762D7CED443E8B8D39D5C /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		0E22303FA94640DAA4D288E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D2A909969DA44CFBB90E1F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6BACB37D22547C4A33C12AA;
+			remoteInfo = UnscentedKF;
+		};
+		6F44218358664C6E8E1B6685 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D2A909969DA44CFBB90E1F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7EFC2D8747444FFAEFD4B5F;
+			remoteInfo = ZERO_CHECK;
+		};
+		88B5BCC9C3844F48A4755553 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D2A909969DA44CFBB90E1F6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F7EFC2D8747444FFAEFD4B5F;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D8C3EBF68544DE59C049853 /* /Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/src/ukf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ukf.cpp; path = src/ukf.cpp; sourceTree = SOURCE_ROOT; };
+		9353730526E44CBF83F151E1 /* UnscentedKF */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = UnscentedKF; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9F66F03188A490894FD12DE /* /Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		CA1CED3269F641C195FD3EC7 /* /Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		E03F01EC6E9E434D912A6BB4 /* /Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		F367BC3716F545D38FCF281B /* /Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/src/tools.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tools.cpp; path = src/tools.cpp; sourceTree = SOURCE_ROOT; };
+		FA211E2684344CBBA9C24962 /* /Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		040E0767F72E40A2925172DE /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		0AFA53CF9C324675AB287D01 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				040E0767F72E40A2925172DE /* CMake Rules */,
+				B9F66F03188A490894FD12DE /* /Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		3472F8035F04431789388E9E /* UnscentedKF */ = {
+			isa = PBXGroup;
+			children = (
+				70A2D74D1FB1471FAF88A692 /* Source Files */,
+				CA1CED3269F641C195FD3EC7 /* /Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/CMakeLists.txt */,
+			);
+			name = UnscentedKF;
+			sourceTree = "<group>";
+		};
+		34B0752177A64FF08541ACCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9353730526E44CBF83F151E1 /* UnscentedKF */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70A2D74D1FB1471FAF88A692 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				E03F01EC6E9E434D912A6BB4 /* /Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/src/main.cpp */,
+				F367BC3716F545D38FCF281B /* /Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/src/tools.cpp */,
+				0D8C3EBF68544DE59C049853 /* /Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/src/ukf.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		84759557208941B1A3A8B2E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9AC328E3744044B0B4F5BA66 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				A6F1C0865FAF432A911855DD /* CMake Rules */,
+				FA211E2684344CBBA9C24962 /* /Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		A6F1C0865FAF432A911855DD /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C5CB360AFDD64A35BB1137CF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3472F8035F04431789388E9E /* UnscentedKF */,
+				0AFA53CF9C324675AB287D01 /* ALL_BUILD */,
+				9AC328E3744044B0B4F5BA66 /* ZERO_CHECK */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		F313193B9F7144EF98F5FD16 = {
+			isa = PBXGroup;
+			children = (
+				C5CB360AFDD64A35BB1137CF /* Sources */,
+				84759557208941B1A3A8B2E9 /* Resources */,
+				34B0752177A64FF08541ACCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6BACB37D22547C4A33C12AA /* UnscentedKF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2AB9CAA883A43269AEF9735 /* Build configuration list for PBXNativeTarget "UnscentedKF" */;
+			buildPhases = (
+				1ABBBBDCA8B04DBEBFA54FC6 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E02A02BB162C46258CE4305E /* PBXTargetDependency */,
+			);
+			name = UnscentedKF;
+			productName = UnscentedKF;
+			productReference = 9353730526E44CBF83F151E1 /* UnscentedKF */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D2A909969DA44CFBB90E1F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 0830;
+			};
+			buildConfigurationList = F37E2A15BA254D72862EC878 /* Build configuration list for PBXProject "UnscentedKF" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				0862D97D4152410984C40A9E /* Debug */,
+				9F80BB3080C94A96AAE12DCA /* Release */,
+				C04762D7CED443E8B8D39D5C /* MinSizeRel */,
+				4AD987B1964449808D15DB68 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = F313193B9F7144EF98F5FD16;
+			projectDirPath = ../../;
+			projectRoot = "";
+			targets = (
+				AEFBA06633F64B758F3EA123 /* ALL_BUILD */,
+				D6BACB37D22547C4A33C12AA /* UnscentedKF */,
+				F7EFC2D8747444FFAEFD4B5F /* ZERO_CHECK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21F7B4F3EA384C0C8F9BCD52 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A0DCD9F6E9CD438BB56AC385 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kevlai1/Google\\ Drive/My\\ Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/ide_profiles/xcode -f /Users/kevlai1/Google\\ Drive/My\\ Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/ide_profiles/xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		BD9967F71CF8444782CC833C /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/kevlai1/Google\\ Drive/My\\ Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/ide_profiles/xcode -f /Users/kevlai1/Google\\ Drive/My\\ Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/ide_profiles/xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		E62A5C40D0664A9E84742828 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ABBBBDCA8B04DBEBFA54FC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD36902163BF4373AD62B320 /* /Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/src/main.cpp */,
+				2C2E0986103E4F4D92F8F4C3 /* /Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/src/tools.cpp */,
+				D42CA48783B84274B985D8E5 /* /Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/src/ukf.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E00CC505550148548300FA7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7EFC2D8747444FFAEFD4B5F /* ZERO_CHECK */;
+			targetProxy = 6F44218358664C6E8E1B6685 /* PBXContainerItemProxy */;
+		};
+		E02A02BB162C46258CE4305E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F7EFC2D8747444FFAEFD4B5F /* ZERO_CHECK */;
+			targetProxy = 88B5BCC9C3844F48A4755553 /* PBXContainerItemProxy */;
+		};
+		FFAD3FCEE8414588A7F3B553 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6BACB37D22547C4A33C12AA /* UnscentedKF */;
+			targetProxy = 0E22303FA94640DAA4D288E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0048BCFC0C744C6F8965FEED /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/ide_profiles/xcode/build";
+			};
+			name = RelWithDebInfo;
+		};
+		09513B2553734F00877098E4 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		174BB2BACDF647FA987887CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -std=c++0x";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = UnscentedKF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		2C93CCEFA4D04FAC9EF8D81E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		43CA676372F3452986C30689 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5AC8CFCC3BBA437E805DDE88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/ide_profiles/xcode/build";
+			};
+			name = Release;
+		};
+		5E03331E73E14762AD00295A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		646F258B379E406A96EC237A /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -std=c++0x";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = UnscentedKF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		77160BF1347C4F96BE964F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "     -std=c++0x";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = UnscentedKF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		7B8F3085D1714DE99CC108F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		7F0F73033FCE42518C4C669E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		81FA8C8055F54986985EA180 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/ide_profiles/xcode/build";
+			};
+			name = MinSizeRel;
+		};
+		D39F72F2F67E422CA90A980D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		DFB1F499DE4C4BA382A2797D /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E90F275F35B04016BA7319D0 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG   -std=c++0x";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = UnscentedKF;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EC4174DF9CC445848DDD6A8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/kevlai1/Google Drive/My Work/ProgrammingProjects/Self-Driving-Car/Assignment/CarND-Unscented-Kalman-Filter-Project/ide_profiles/xcode/build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2210511C03BF451096A6BB0E /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E03331E73E14762AD00295A /* Debug */,
+				7B8F3085D1714DE99CC108F0 /* Release */,
+				D39F72F2F67E422CA90A980D /* MinSizeRel */,
+				DFB1F499DE4C4BA382A2797D /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6E1CE44A36804573B0B1F337 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F0F73033FCE42518C4C669E /* Debug */,
+				2C93CCEFA4D04FAC9EF8D81E /* Release */,
+				43CA676372F3452986C30689 /* MinSizeRel */,
+				09513B2553734F00877098E4 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C2AB9CAA883A43269AEF9735 /* Build configuration list for PBXNativeTarget "UnscentedKF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77160BF1347C4F96BE964F0D /* Debug */,
+				174BB2BACDF647FA987887CA /* Release */,
+				646F258B379E406A96EC237A /* MinSizeRel */,
+				E90F275F35B04016BA7319D0 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F37E2A15BA254D72862EC878 /* Build configuration list for PBXProject "UnscentedKF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4174DF9CC445848DDD6A8C /* Debug */,
+				5AC8CFCC3BBA437E805DDE88 /* Release */,
+				81FA8C8055F54986985EA180 /* MinSizeRel */,
+				0048BCFC0C744C6F8965FEED /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D2A909969DA44CFBB90E1F6 /* Project object */;
+}
